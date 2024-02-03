@@ -1,0 +1,11 @@
+# idea
+.idea
+.idea/
+*.iml
+.DS_Store
+**/.DS_Store
+
+workspace.xml
+#vscode
+.vscode
+.vscode/

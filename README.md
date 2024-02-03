@@ -7,7 +7,7 @@ import 	"github.com/JackGod001/go_trc20_wallet_create"
 
 func main() {
     fmt.Println("生成纯数字随机字符串:")
-    wallet, err := GenerateTRCWallet()
+    wallet, err := walletCreate.GenerateTRCWallet()
 	if err != nil {
 		t.Error("Test Create TRC20 Address Error:", err)
 		return
